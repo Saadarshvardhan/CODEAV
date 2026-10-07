@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Responsive Template</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header & Navigation -->
+    <header class="navbar">
+        <div class="container">
+            <a href="#" class="logo">I'M<span>AADARSH</span></a>
+            <nav class="nav-links">
+                <a href="#hero">Home</a>
+                <a href="#features">Features</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+        <div class="container hero-content">
+            <h1>c++ code</h1>
+            <p>OOPM CLASSES C++ CODE.</p>
+            <a href="#features" class="btn">CL-14</a>
+        </div>
+    </section>
+    <pre><code>#include &lt;iostream&gt;
+using namespace std;
+
+class student
+{
+public:
+    string name;
+    int rollno;
+    string branch;
+    int semester;
+    string college;
+
+    void study()
+    {
+        cout &lt;&lt; "The student is studying OOPM" &lt;&lt; endl;
+    }
+    
+    void play()
+    {
+        cout &lt;&lt; "The student is playing ludo" &lt;&lt; endl;
+    }
+
+    student()
+    {
+        branch = "CSE IOT";
+        college = "GGITS";
+    }	
+};
+
+int main()
+{
+    student s1, s2;
+    s1.name = "aadarsh";
+    s1.rollno = 1;
+    s1.semester = 3;
+
+    s2.name = "ananya";
+    s2.rollno = 67;
+    s2.semester = 3;
+
+    cout &lt;&lt; "The name of the student 1 is: " &lt;&lt; s1.name &lt;&lt; endl;
+    cout &lt;&lt; "The name of the student 2 is: " &lt;&lt; s2.name &lt;&lt; endl;
+    
+    return 0;
+}</code></pre>
+
+
+</body>
+</html>
